@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="felxible-account-service" />
+        <module name="credit-service" />
+        <module name="customer-service" />
+        <module name="hgs-service" />
+        <module name="management-service" />
+        <module name="account-service" />
+        <module name="credit-card-service" />
+        <module name="notification-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="account-service" target="1.8" />
+      <module name="credit-card-service" target="1.8" />
+      <module name="credit-service" target="1.8" />
+      <module name="customer-service" target="1.8" />
+      <module name="felxible-account-service" target="1.8" />
+      <module name="hgs-service" target="1.8" />
+      <module name="management-service" target="1.8" />
+      <module name="notification-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
